@@ -16,8 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # ==========================================
 
 # 🔴 PASTE YOUR DISCORD WEBHOOK URL HERE 👇
-WEBHOOK_URL = "https://discord.com/api/webhooks/1453409731304751236/6j9pCbmE2Hp0ZghmeNRe8EY6wkzN_29KiG56jjb02u9LTV7XhS0cHur-_TRWPJf95lFS"
-
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
